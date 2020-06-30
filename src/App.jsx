@@ -6,6 +6,7 @@ export default function App() {
   const [todos, setTodos] = useState([]);
 
   useEffect(() => {
+    //Get multiple documents from a collection
     //https://firebase.google.com/docs/firestore/query-data/get-data?authuser=0 Get multiple documents from a collection
     db.collection("todos")
       .get()

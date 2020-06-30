@@ -1,5 +1,7 @@
 import firebase from "firebase";
 
+
+//Firebase SDK snippet
 //https://console.firebase.google.com/u/0/project/react-redux-firebase-d96f5/settings/general/web:YTMwMzQ3YTUtYzU5NS00MGFlLWI0NzgtNGY0M2MyYzRmY2Zl
 
 const firebaseConfig = {
